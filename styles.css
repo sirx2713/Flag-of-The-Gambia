@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: #F6D776;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1200px;
+    grid-template-rows: 200px 200px 200px;
+}
+#container > #red-box{
+    background-color: #CE1126;
+}
+#container > #white-box{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#container > #white-box > #blue-box{
+    height: 100px;
+    width: 1200px;
+    background-color: #0C1C8C;
+}
+#container > #green-box{
+    background-color: #3A7728;
+}
